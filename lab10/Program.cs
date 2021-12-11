@@ -10,19 +10,7 @@ namespace lab10
     {
         static void Main(string[] args)
         {
-            /*Console.WriteLine("Введите количество градусов угла");
-            double Grade = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите количество минут угла");
-            double Minutes = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите количество секунд угла");
-            double Seconds = double.Parse(Console.ReadLine());
-            var Radians = (Grade + Minutes / 60 + Seconds / 3600) * (Math.PI) / 180;
-            if (Grade < 0)
-                Radians = -Radians;
-            Console.WriteLine("Значение данного угла в радианах=" + Radians);
-            Console.ReadKey();*/
-
-
+            
             Corner corner = new Corner(30,20,5);
             corner.Minutes = -70;
             Console.ReadKey();
